@@ -1,4 +1,4 @@
-package com.danilkha.recomendationsapp
+package com.danilkha.recomendationsapp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
