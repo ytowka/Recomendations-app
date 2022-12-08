@@ -44,4 +44,15 @@
 Настройки приватности
 сравнитель
 
+Заташить технологии
+------------------------
+- compose
+- coroutines / flow
+- dagger 2
+- room
+- architacure components (MVI)
+- firebase db
+- google authentication
+- Retrofit (Придумать куда его воткунуть)
+
 
