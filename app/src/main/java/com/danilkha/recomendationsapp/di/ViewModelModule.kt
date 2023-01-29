@@ -1,8 +1,7 @@
 package com.danilkha.recomendationsapp.di
 
-import android.content.Context
-import com.danilkha.recomendationsapp.domain.FirebaseAuthRepository
-import com.danilkha.recomendationsapp.domain.UserRepository
+import com.danilkha.recomendationsapp.domain.repos.FirebaseAuthRepository
+import com.danilkha.recomendationsapp.domain.repos.UserRepository
 import dagger.Module
 import dagger.Provides
 
@@ -10,12 +9,12 @@ import dagger.Provides
 class ViewModelModule {
 
     @Provides
-    fun provideUserRepository(): UserRepository{
+    fun provideUserRepository(): UserRepository {
         return UserRepository.Impl();
     }
 
     @Provides
-    fun provideFirebaseAuthRepository(): FirebaseAuthRepository{
+    fun provideFirebaseAuthRepository(): FirebaseAuthRepository {
         return FirebaseAuthRepository.Impl()
     }
 }

@@ -7,7 +7,7 @@ import androidx.activity.ComponentActivity
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 import com.danilkha.recomendationsapp.di.AppComponent
-import com.danilkha.recomendationsapp.ui.entrypoints.App
+import com.danilkha.recomendationsapp.entrypoints.App
 
 val Activity.app: App
     get() = this.application as App
@@ -24,4 +24,7 @@ fun Context.findActivity(): ComponentActivity {
 val injector: AppComponent
     @Composable
     get() = LocalContext.current.findActivity().app.appComponent
+
+val Context.injector: AppComponent
+    get() = (this.applicationContext as App).appComponent
 

@@ -1,4 +1,4 @@
-package com.danilkha.recomendationsapp.ui.entrypoints
+package com.danilkha.recomendationsapp.entrypoints
 
 import android.app.Application
 import android.util.Log

@@ -1,9 +1,6 @@
 package com.danilkha.recomendationsapp.ui.auth
 
-import android.app.Activity
-import android.util.Log
-import com.danilkha.recomendationsapp.domain.FirebaseAuthRepository
-import com.danilkha.recomendationsapp.domain.UserRepository
+import com.danilkha.recomendationsapp.domain.repos.FirebaseAuthRepository
 import com.danilkha.recomendationsapp.ui.utils.MviViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
