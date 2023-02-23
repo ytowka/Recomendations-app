@@ -1,4 +1,4 @@
-package com.danilkha.recomendationsapp.ui.utils
+package com.danilkha.recomendationsapp.utils
 
 import android.app.Activity
 import android.util.Log

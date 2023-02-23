@@ -11,6 +11,8 @@ import com.danilkha.recomendationsapp.ui.auth.AuthViewModel
 
 import com.danilkha.recomendationsapp.ui.theme.RecomendationsAppTheme
 import com.danilkha.recomendationsapp.ui.utils.*
+import com.danilkha.recomendationsapp.utils.injector
+import com.danilkha.recomendationsapp.utils.rememberViewModel
 
 class MainActivity : ComponentActivity() {
 

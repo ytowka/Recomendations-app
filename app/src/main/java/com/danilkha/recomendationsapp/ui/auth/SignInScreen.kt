@@ -13,9 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.danilkha.recomendationsapp.R
-import com.danilkha.recomendationsapp.ui.utils.LaunchCollectEffects
-import com.danilkha.recomendationsapp.ui.utils.getViewModel
-import com.danilkha.recomendationsapp.ui.utils.injector
+import com.danilkha.recomendationsapp.utils.LaunchCollectEffects
+import com.danilkha.recomendationsapp.utils.getViewModel
+import com.danilkha.recomendationsapp.utils.injector
 
 
 @Composable
